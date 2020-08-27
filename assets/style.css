@@ -1,0 +1,56 @@
+/* font: https://www.fontsquirrel.com/fonts/bellota
+colors: #0d8187, #FFF, #303030 */
+
+body{
+    background-color: white;
+    color: #303030;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+}
+#name, #email, #message{
+    background-color:#0d8187;
+    border-radius: 15px 50px 30px;
+    box-shadow: 5px 5px 5px #D9F0EF ;
+}
+/* .form-group {
+    margin-bottom: 1em;
+} */
+.test {
+    color: white;
+}
+.custom-select{
+    background-color:#0d8187;
+    border-radius: 15px 50px 30px;
+    box-shadow: 5px 5px 5px #D9F0EF ;
+}
+#logo {
+   padding-bottom: 2%; 
+}
+#contactButton {
+    background-color: #D9F0EF;
+    border-radius: 50%;
+}
+#contactUs {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.custom-control-input{
+    text-align: center;
+}
+.form-control::placeholder{
+    color:white;
+}
+.custom-select{
+    color:white;
+}
+#btn {
+    border-radius: 5px;
+    padding: 10 50px;
+}
+textarea{
+    resize:none;
+}
