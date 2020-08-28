@@ -1,4 +1,11 @@
+<?php
+echo "<pre>";
+    print_r($_POST);
+echo "</pre>"
+?>
 <html lang="en">
+<!-- https://www.youtube.com/watch?v=JQ_WphOV9VQ&feature=youtu.be
+https://www.youtube.com/watch?v=h5ghlfvU3S8 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +33,7 @@
                 <p id="contactUs">Contact us !</p>
             </div>
         </div>
-        <form action="container" method = "POST" class = "form">
+        <form action="index2.php" method = "POST" class = "form">
             <div class = "col-sm-4 offset-sm-4">
                 <div class = "form-group">
                     <label for="name" class="form-label">What's your name?</label>

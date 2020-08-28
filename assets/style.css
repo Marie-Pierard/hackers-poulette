@@ -4,7 +4,7 @@ colors: #0d8187, #FFF, #303030 */
 body{
     background-color: white;
     color: #303030;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .container {
     width: 100%;
